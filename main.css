@@ -1,0 +1,126 @@
+@font-face {
+    font-family: OCRAMedium;
+    src: url(fonts/OCRAMedium.ttf);
+}
+@font-face {
+    font-family: TheMIX;
+    src: url(fonts/TheMix.ttf);
+}
+body {
+    background-color: #333333;
+}
+#mezera {
+    text-align: center;
+    background-color: #515251;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 35rem solid;
+    border-left-color: #333333;
+    border-right: 35rem solid;
+    border-right-color: #333333;
+}
+#nazev {
+    position: absolute;
+    top: 105px;
+    left: 600px;
+    font-size: 60px;
+    color: white;
+    font-family: TheMIX;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#tecky {
+    font-size: 13px;
+}
+#obrazkygone {
+    text-align: left;
+}
+.telo {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: OCRAMedium;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.logo {
+    position: relative;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+footer {
+    position: static;
+    font-size: 12px;
+    color: #bdbdbd;
+    text-align: center;
+    font-family: OCRAMedium;
+}
+#secretfootertext {
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    font-family: OCRAMedium;
+}
+.fuji {
+    position: relative;
+    right: 50px;
+    width: 60%;
+    padding-bottom: 20px;
+}
+#mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 41%;
+}
+.tdfr {
+    z-index: 2;
+    position: absolute;
+    width: 605px;
+    top: 420px;
+    right: 590px;
+}
+.tdfbg {
+    z-index: 1;
+    display: block;
+    position: relative;
+    right: 0px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+.mrpinkandfriends {
+    position: relative;
+    width: 700px;
+    right: 40px;
+    padding-bottom: 10px;
+}
+#mrpinkandfriendssource {
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+}
