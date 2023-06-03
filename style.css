@@ -1,21 +1,51 @@
 @font-face {
     font-family: OCRAMedium;
-    src: url(fonts/OCRAMedium.ttf);
+    src: url(old/fonts/OCRAMedium.ttf);
 }
 @font-face {
     font-family: TheMIX;
-    src: url(fonts/TheMix.ttf);
+    src: url(old/fonts/TheMix.ttf);
 }
-body {
+body{
     background-color: #333333;
     background-image: url(https://cdn.discordapp.com/attachments/904061355382935585/1114296028129132564/main.png);
     background-repeat: no-repeat;
     height: 1012px;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     background-position: center;
     text-align: center;
 }
 .logo {
     padding: 0;
-    margin-top: 150px;
+    margin-top: 180px;
+}
+.navbar {
+    padding: 0;
+}
+footer {
+    margin-top: 180px;
+    font-family: OCRAMedium;
+    text-align: center;
+    color: #bdbdbd;
+}
+a {
+    text-decoration: none;
+    position: relative;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+.secretmessage {
+    color: #333333;
 }
