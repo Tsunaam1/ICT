@@ -11,12 +11,11 @@ body {
     background-image: url(https://cdn.discordapp.com/attachments/904061355382935585/1114296028129132564/main.png);
     background-repeat: no-repeat;
     height: 1012px;
-    width: 800;
+    width: 100%;
     background-position: center;
+    text-align: center;
 }
 .logo {
-    width: 20%;
-    margin-top: 10%;
-    margin: 0;
     padding: 0;
+    margin-top: 150px;
 }
