@@ -1,0 +1,160 @@
+@font-face {
+    font-family: OCRAMedium;
+    src: url(fonts/OCRAMedium.ttf);
+}
+@font-face {
+    font-family: TheMIX;
+    src: url(fonts/TheMix.ttf);
+}
+body {
+    background-color: #333333;
+}
+#mezera {
+    text-align: center;
+    background-color: #515251;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 35rem solid;
+    border-left-color: #333333;
+    border-right: 35rem solid;
+    border-right-color: #333333;
+}
+#nazev {
+    z-index: 5;
+    position: relative;
+    display: block;
+    top: 96px;
+    left: 0px;
+    font-size: 60px;
+    color: white;
+    font-family: TheMIX;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#tecky {
+    position: relative;
+    display: block;
+    font-size: 13px;
+}
+.jitzpetfoto {
+    position: absolute;
+    display: block;
+    bottom: 300px;
+    left: 650px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: OCRAMedium;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+#obrazkygone {
+    text-align: left;
+}
+.telo {
+    position: absolute;
+    display: block;
+    bottom: 300px;
+    left: 650px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: OCRAMedium;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.logo {
+    position: absolute;
+    display: block;
+    bottom: 290px;
+    width: 700px;
+    left: -50px;
+}
+a {
+    text-decoration: none;
+    position: relative;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+footer {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #bdbdbd;
+    text-align: center;
+    font-family: OCRAMedium;
+    bottom: 80px;
+}
+#secretfootertext {
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    font-family: OCRAMedium;
+}
+.fuji {
+    display: block;
+    position: relative;
+    right: 40px;
+    top: 560px;
+    width: 700px;
+    padding-bottom: 20px;
+}
+#mainimg {
+    z-index: 0;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    bottom: 82px;
+}
+.tdfr {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    width: 605px;
+    top: 1000px;
+    right: 100px;
+}
+.tdfbg {
+    z-index: 1;
+    display: block;
+    position: relative;
+    right: 0px;
+    width: 600px;
+    padding-bottom: 10px;
+    top: 560px;
+}
+.skolavdfrap {
+    position: relative;
+    width: 700px;
+    right: 40px;
+    padding-bottom: 10px;
+}
+#skolavdfrapsource {
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+}
+.wrapper {
+    display: inline-block;
+    position: relative;
+}

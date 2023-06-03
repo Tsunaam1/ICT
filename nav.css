@@ -1,0 +1,24 @@
+@font-face {
+    font-family: OCRAMedium;
+    src: url(old/fonts/OCRAMedium.ttf);
+}
+@font-face {
+    font-family: QUARTZ;
+    src: url(old/fonts/Quartz.ttf);
+}
+body {
+    background-color: #333333;
+}
+div {
+    font-size: 25px;
+    font-family: QUARTZ;
+    font-style: italic;
+    color: white;
+}
+p {
+    color: white;
+}
+#tecky {
+    font-family: OCRAMedium;
+    font-size: 15px;
+}
