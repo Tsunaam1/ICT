@@ -9,6 +9,6 @@ body {
 }
 @media screen and (max-width: 1000px) {
     .backbutton {
-        margin-left: 30%;
+        margin-left: 50%;
     }
 }
