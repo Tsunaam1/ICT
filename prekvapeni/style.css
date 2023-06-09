@@ -10,11 +10,6 @@ body {
 audio {
     margin: 5%;
 }
-@media screen and (max-width: 1000px) {
-    .backbutton {
-        margin-left: 30%;
-    }
-}
 @media screen and (max-width: 800px) {
     body {
         overflow-x: visible;
