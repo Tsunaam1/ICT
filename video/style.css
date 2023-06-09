@@ -12,3 +12,8 @@ body {
         margin-left: 30%;
     }
 }
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: visible;
+    }
+}

@@ -7,13 +7,13 @@ body {
     background-position: center;
     text-align: center;
 }
-.tdfbg {
-    margin-top: 35px;
-    z-index: 1;
+audio {
+    margin: 5%;
 }
-.tdfr {
-    z-index: 3;
-    margin-top: -400px;
+@media screen and (max-width: 1000px) {
+    .backbutton {
+        margin-left: 30%;
+    }
 }
 @media screen and (max-width: 800px) {
     body {

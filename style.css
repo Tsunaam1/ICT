@@ -49,3 +49,8 @@ a:active {
 .secretmessage {
     color: #333333;
 }
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: visible;
+    }
+}

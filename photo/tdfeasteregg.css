@@ -8,7 +8,20 @@ body {
     text-align: center;
 }
 @media screen and (max-width: 1000px) {
-    .backbutton {
+    /* .backbutton {
         margin-left: 50%;
+    } */
+    .tdfiframe {
+        width: 100%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: visible;
+    }
+    .tdfiframe {
+        width: 100%;
+        height: 60%;
     }
 }
