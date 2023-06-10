@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    height: 1012px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    text-align: center;
+}
+.tdfbg {
+    margin-top: 35px;
+    z-index: 1;
+}
+.tdfr {
+    z-index: 3;
+    margin-top: -400px;
+}
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: visible;
+    }
+}
