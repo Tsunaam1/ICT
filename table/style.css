@@ -1,0 +1,10 @@
+body{
+    background-color: #333333;
+    overflow-x: hidden;
+    background-position: center;
+    text-align: center;
+}
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
